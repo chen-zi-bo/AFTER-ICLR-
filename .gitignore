@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and secrets
+.env
+.venv/
+venv/
+env/
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Model weights and generated artifacts
+checkpoints/
+context_cache/
+context_memory/
+context_offset_results*/
+results/
+logs/
+test_results/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+*.log
+
+# Locally downloaded language models
+llm/*
+!llm/.gitkeep
